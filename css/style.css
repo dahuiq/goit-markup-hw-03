@@ -83,10 +83,11 @@ header .container {
   align-items: center;
   font-style: normal;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.142;
   letter-spacing: 0.02em;
   justify-content: space-between;
+  color: var(--details-color);
 }
 .media-list li:not(:last-child) {
   margin-right: 50px;
@@ -103,7 +104,7 @@ header .container {
   font-weight: 700;
   font-size: 32px;
   line-height: 1.192;
-  letter-spacing: 0.78;
+  letter-spacing: 0.03em;
   padding-top: 24;
   padding-bottom: 25;
   color: var(--cursor-color);
@@ -114,7 +115,7 @@ header .container {
   font-weight: 700;
   font-size: 32px;
   line-height: 1.192;
-  letter-spacing: 0.78;
+  letter-spacing: 0.03em;
   padding-top: 24;
   padding-bottom: 25;
   color: var(--text-color);
@@ -126,7 +127,7 @@ header .container {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
-  letter-spacing: 0.28;
+  letter-spacing: 0.02em;
 }
 
 .h1 {
@@ -136,7 +137,7 @@ header .container {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.363;
-  letter-spacing: 2.64;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 30px;
@@ -161,7 +162,7 @@ a {
   font-weight: 700;
   font-size: 16px;
   line-height: 2;
-  letter-spacing: 0.96;
+  letter-spacing: 0.06em;
   padding: 10px 32px;
   border-radius: 4px;
   background-color: var(--cursor-color);
@@ -183,7 +184,7 @@ a {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
-  letter-spacing: 0.42;
+  letter-spacing: 0.03em;
 }
 .details p {
   font-family: var(--main-font);
@@ -192,7 +193,7 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
-  letter-spacing: 0.42;
+  letter-spacing: 0.03em;
 }
 .sec1 {
   padding-top: 0px;
@@ -205,7 +206,7 @@ a {
   font-size: 36px;
   line-height: 1.166;
   text-align: center;
-  letter-spacing: 1.08;
+  letter-spacing: 0.03em;
 }
 .images1 {
   margin-top: 50px;
@@ -228,7 +229,7 @@ a {
   font-size: 36px;
   line-height: 1.166;
   text-align: center;
-  letter-spacing: 1.08;
+  letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
 
@@ -259,7 +260,7 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187;
-  letter-spacing: 0.48;
+  letter-spacing: 0.03em;
   margin-bottom: 30px;
 }
 .members .role {
@@ -269,7 +270,7 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.187;
-  letter-spacing: 0.48;
+  letter-spacing: 0.03em;
 }
 .web {
   margin-top: 60px;
@@ -281,7 +282,7 @@ a {
   font-weight: 700;
   font-size: 32px;
   line-height: 1.192;
-  letter-spacing: 0.78;
+  letter-spacing: 0.03em;
   padding-top: 24;
   padding-bottom: 25;
   color: var(--white-color);
@@ -294,7 +295,7 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
-  letter-spacing: 0.42;
+  letter-spacing: 0.03em;
   margin-bottom: 9px;
 }
 .social {
@@ -304,7 +305,7 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
-  letter-spacing: 0.42;
+  letter-spacing: 0.03em;
   margin-bottom: 9px;
 }
 .contacts li:last-child {

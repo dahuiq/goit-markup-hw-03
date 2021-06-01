@@ -100,7 +100,7 @@ a {
   font-weight: 700;
   font-size: 32px;
   line-height: 1.192;
-  letter-spacing: 0.78;
+  letter-spacing: 0.03em;
   padding-top: 24;
   padding-bottom: 25;
   color: var(--cursor-color);
@@ -111,7 +111,7 @@ a {
   font-weight: 700;
   font-size: 32px;
   line-height: 1.192;
-  letter-spacing: 0.78;
+  letter-spacing: 0.03em;
   padding-top: 24;
   padding-bottom: 25;
   color: var(--text-color);
@@ -123,7 +123,7 @@ a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
-  letter-spacing: 0.28;
+  letter-spacing: 0.02em;
 }
 .media-list {
   font-family: var(--main-font);
@@ -132,7 +132,7 @@ a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
-  letter-spacing: 0.28;
+  letter-spacing: 0.02em;
 }
 .container .media-list {
   display: flex;
@@ -208,17 +208,17 @@ section .container .content .button {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 1.08;
+  letter-spacing: 0.06em;
   margin: 0 auto;
 }
 .contenth2 p {
   font-family: var(--main-font);
   color: var(--details-color);
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 2;
-  letter-spacing: 0.48;
+  letter-spacing: 0.03em;
 }
 .footer {
   margin-left: auto;
@@ -241,7 +241,7 @@ section .container .content .button {
   font-weight: 700;
   font-size: 32px;
   line-height: 1.192;
-  letter-spacing: 0.78;
+  letter-spacing: 0.03em;
   padding-top: 24;
   padding-bottom: 25;
   color: var(--white-color);
@@ -254,7 +254,7 @@ section .container .content .button {
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
-  letter-spacing: 0.42;
+  letter-spacing: 0.03em;
   margin-bottom: 9px;
 }
 .social {
@@ -264,7 +264,7 @@ section .container .content .button {
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
-  letter-spacing: 0.42;
+  letter-spacing: 0.03em;
 }
 .contacts li:last-child {
   padding-bottom: 60px;
