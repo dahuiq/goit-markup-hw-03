@@ -1,0 +1,227 @@
+:root {
+  --accent-color: #2f303a;
+  --white-color: #ffffff;
+  --cursor-color: #2196f3;
+  --text-color: #212121;
+  --team-color: #f5f4fa;
+  --main-font: "Roboto", sans-serif;
+  --accent-font: "Raleway", sans-serif;
+  --details-color: #757575;
+  --add-color: rgba(255, 255, 255, 0.6);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0 auto;
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: normal;
+}
+.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header {
+  background-color: var(--white-color);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.navList {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: inherit;
+  width: 294px;
+}
+.container .media-list {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--details-color);
+}
+.navList a:hover,
+.navList a:focus,
+.media-list a:focus,
+.media-list a:hover {
+  color: var(--cursor-color);
+}
+.logo {
+  font-family: var(--accent-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  padding-top: 24;
+  padding-bottom: 25;
+  color: var(--cursor-color);
+}
+.studio {
+  font-family: var(--accent-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  padding-top: 24;
+  padding-bottom: 25;
+  color: var(--text-color);
+}
+.navList > li {
+  font-family: var(--main-font);
+  color: var(--text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+}
+
+.h1 {
+  font-family: var(--main-font);
+  color: var(--white-color);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.main1 {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.onlineSign {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  padding: 10px 32px;
+  border-radius: 4px;
+  background-color: var(--cursor-color);
+  color: var(--white-color);
+  cursor: pointer;
+}
+.details h3 {
+  font-family: var(--main-font);
+  color: var(--text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+}
+.details p {
+  font-family: var(--main-font);
+  color: var(--details-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+}
+.sec1 {
+  padding-top: 0px;
+}
+.business {
+  font-family: var(--main-font);
+  color: var(--text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.ourteam {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: var(--team-color);
+}
+.team {
+  font-family: var(--main-font);
+  color: var(--text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+.members p {
+  font-family: var(--main-font);
+  color: var(--accent-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+  margin-bottom: 30px;
+}
+.members .role {
+  font-family: var(--main-font);
+  color: var(--details-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+}
+.studio2 {
+  font-family: var(--accent-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  padding-top: 24;
+  padding-bottom: 25;
+  color: var(--white-color);
+}
+.adress {
+  font-family: var(--main-font);
+  font-style: normal;
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+}
+.social {
+  font-family: var(--main-font);
+  font-style: normal;
+  color: var(--add-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+}
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: var(--accent-color);
+}
